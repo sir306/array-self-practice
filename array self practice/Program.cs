@@ -14,6 +14,11 @@ namespace ArraySelfPractice
             {
                 Console.WriteLine("this is : {0}", item);
             }
+
+            for (int i = 0; i < array1.Length; i++)
+            {
+                Console.WriteLine("this is : {0}", array1[i]);
+            }
             foreach (string item in array2)
             {
                 Console.WriteLine("this is : {0}", item);
